@@ -125,3 +125,30 @@ body {
   font-size: 1.5rem;
   font-weight: 400;
 }
+
+@media (max-width: 1200px) {
+  .cabecalho {
+    padding: 10%;
+  }
+
+  .cabecalho__menu {
+    justify-content: center;
+  }
+
+  .apresentacao {
+    flex-direction: column-reverse;
+    padding: 5%;
+  }
+
+  .apresentacao__conteudo {
+    width: auto;
+  }
+}
+
+.apresentacao__conteudo_itens {
+  font-size: 1.5rem;
+  font-family: var(--fonte-secundaria);
+}
+
+/*Na eescolha do menu, eu posso uma fonte branca ao passar o mouse por cima.
+Também posso colocar uma outra linha acompanhando a minha foto*/
